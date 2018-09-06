@@ -1,0 +1,52 @@
+2018-09-04 17:17:22.632 +03:00 [WRN] No XML encryptor configured. Key "a52fd01e-f0a8-4aa9-993b-fcd8c0427a0e" may be persisted to storage in unencrypted form.
+2018-09-04 17:17:22.868 +03:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-04 17:17:22.868 +03:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-04 17:17:22.868 +03:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-04 17:17:22.868 +03:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-04 17:17:22.868 +03:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-04 17:17:24.184 +03:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2018-09-04 17:17:41.159 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-04 17:17:50.661 +03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-09-04 17:17:50.665 +03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-09-04 17:17:50.666 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-09-04 17:17:50.670 +03:00 [DBG] Start discovery request
+2018-09-04 17:17:51.004 +03:00 [DBG] Found ["openid","profile"] as all scopes in database
+2018-09-04 17:17:53.319 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:19:01.758 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:19:01.868 +03:00 [INF] Creating User
+2018-09-04 17:19:02.145 +03:00 [WRN] The Include operation for navigation '[x].Roles.Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-09-04 17:19:02.145 +03:00 [WRN] The Include operation for navigation '[x].Claims.ClaimTypeNav' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-09-04 17:19:02.204 +03:00 [INF] Successfully Created User
+2018-09-04 17:19:02.231 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:19:06.587 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:19:06.589 +03:00 [INF] Finding User by Subject 8df965d5-c77a-4058-929d-c326362533fc
+2018-09-04 17:19:06.636 +03:00 [INF] Successfully Retrieved item by Subject 8df965d5-c77a-4058-929d-c326362533fc
+2018-09-04 17:19:06.701 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:19:06.702 +03:00 [INF] Finding User by Subject 8df965d5-c77a-4058-929d-c326362533fc
+2018-09-04 17:19:06.704 +03:00 [INF] Successfully Retrieved item by Subject 8df965d5-c77a-4058-929d-c326362533fc
+2018-09-04 17:19:15.578 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:19:15.580 +03:00 [INF] Getting Apps
+2018-09-04 17:19:15.599 +03:00 [WRN] The LINQ expression 'where (([x].Expiration == null) OrElse (Convert(DateTime.UtcNow, Nullable`1) < [x].Expiration))' could not be translated and will be evaluated locally.
+2018-09-04 17:19:15.624 +03:00 [INF] Successfully Retrieved Apps for Subject 8df965d5-c77a-4058-929d-c326362533fc
+2018-09-04 17:19:19.602 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:19:27.327 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:22:08.810 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:31:17.769 +03:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-04 17:31:17.793 +03:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-04 17:31:17.794 +03:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-04 17:31:17.794 +03:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-04 17:31:17.794 +03:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-04 17:31:18.848 +03:00 [WRN] The 'bool' property 'UserEditable' on entity type 'IdentityExpressClaimType' is configured with a database-generated default. This default will always be used when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used when the property value is 'null'.
+2018-09-04 17:31:33.537 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-04 17:31:40.186 +03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-09-04 17:31:40.190 +03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-09-04 17:31:40.191 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-09-04 17:31:40.194 +03:00 [DBG] Start discovery request
+2018-09-04 17:31:40.794 +03:00 [DBG] Found ["openid","profile"] as all scopes in database
+2018-09-04 17:31:44.966 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:32:10.460 +03:00 [FTL] ****** Using non-production Community Edition ******
+2018-09-04 17:32:10.546 +03:00 [INF] Creating User
+2018-09-04 17:32:10.864 +03:00 [WRN] The Include operation for navigation '[x].Roles.Role' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-09-04 17:32:10.864 +03:00 [WRN] The Include operation for navigation '[x].Claims.ClaimTypeNav' is unnecessary and was ignored because the navigation is not reachable in the final query results. See https://go.microsoft.com/fwlink/?linkid=850303 for more information.
+2018-09-04 17:32:10.913 +03:00 [INF] Successfully Created User
+2018-09-04 17:32:10.936 +03:00 [FTL] ****** Using non-production Community Edition ******
